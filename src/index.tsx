@@ -1,9 +1,11 @@
 import React from "react";
 
-const App = () => {
-  const email = "test";
+interface Props {
+  children: React.ReactNode;
+}
 
-  return <div>This is great {email}</div>;
+const SimplePop: React.FC<Props> = ({ children }) => {
+  return <div></div>;
 };
 
-export default App;
+export default SimplePop;
